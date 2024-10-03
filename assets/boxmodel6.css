@@ -1,0 +1,6 @@
+.box {
+    height: 500px;
+    background-color: chocolate;
+    border: 1px solid black;
+    padding: 30px;
+}
