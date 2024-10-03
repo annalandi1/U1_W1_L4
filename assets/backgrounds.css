@@ -1,0 +1,38 @@
+/*ripristiniamo qualche stile di base*/
+
+h1{
+    font-size: 2em;
+    font-weight: bold; /*700 = grassetto*/
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-transform: uppercase; /*porto il testo in maiuscolo*/
+}
+
+/*un' alternativa al collegamento tramite id o classe é section > div:nth-of-time(1) {.......} */
+#box1{
+   width: 300px;
+   height: 200px;
+   border: 1px solid blue; 
+   margin-left: 1em;
+   background-image: url(https://placedog.net/300/200);
+}
+
+#box2{
+    width: 400px;
+    height: 400px;
+    border: 1px solid blue; 
+    margin-left: 1em;
+    background-image: url(https://placedog.net/400/400);
+
+ }
+
+ #box3{
+    width: 400px;
+    height: 500px;
+    border: 1px solid blue; 
+    margin-left: 1em;
+    background-image: url(https://placedog.net/600/600);
+    background-size: cover;
+    background-position: center;
+    
+ }

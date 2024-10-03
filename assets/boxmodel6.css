@@ -1,6 +1,25 @@
 .box {
     height: 500px;
-    background-color: chocolate;
+    background-color: #cf6214d9;
     border: 1px solid black;
     padding: 30px;
+    border-radius: 5px;
+
+}
+
+h1{
+    font-size: 2em;
+    margin: 0.5em 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+p{
+    margin: 0.5em 0;
 }
